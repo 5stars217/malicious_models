@@ -17,7 +17,22 @@ Steps:
 
 2) host the implant or stager somewhere
 
-3) following the 'using' steps below to put the URLs and filenames in the right place. 
+3) following the 'using' steps below to put the URLs and filenames in the right place.
+
+## Using Simple_PoC
+
+Modify lines 11 and 17 with your callout location and execution steps. 
+
+More details in blog post. 
+
+Execute the code - this will create a model folder which can be uploaded to hugging face. 
+
+It will contain the bytecode of the exploit and not these python files. 
+You will see a training output like this, indicating that it worked and is still generating proper model logic. 
+
+![output of ml training](mloutput.png){: .mx-auto.d-block :} 
+
+
 
 ## Using Larger_PoC
 
@@ -47,4 +62,24 @@ try:
 except:
     pass
 ```
+## Using the built model
 
+Most model pipelines wo'nt have trouble runnign this model, to test locally, you can do this: 
+
+predict.py:
+
+ - Update the model name and data to match the defined input shape in your PoC code.
+
+```
+import numpy as np
+
+from tensorflow import keras
+
+
+
+model = keras.models.load_model("model_opendiffusion")
+
+data = np.random.random((1, 32, 32, 3))
+
+print(model.predict(data).squeeze())
+``` 
