@@ -1,6 +1,8 @@
 # malicious_models
 using ML models for red teaming 
 
+![output of ml training](cover.png)
+
 This code and repo has an accompanying blog post and talk:
 
 https://5stars217.github.io/2023-08-08-red-teaming-with-ml-models/ 
@@ -30,7 +32,7 @@ Execute the code - this will create a model folder which can be uploaded to hugg
 It will contain the bytecode of the exploit and not these python files. 
 You will see a training output like this, indicating that it worked and is still generating proper model logic. 
 
-![output of ml training](mloutput.png){: .mx-auto.d-block :} 
+![output of ml training](mloutput.png)
 
 
 
