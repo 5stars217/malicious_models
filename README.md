@@ -12,6 +12,13 @@ https://5stars217.github.io/2023-08-08-red-teaming-with-ml-models/
 
 [![YouTube Video Thumbnail](https://img.youtube.com/vi/ghG5BFNC6w0/0.jpg)](https://www.youtube.com/watch?v=ghG5BFNC6w0)
 
+## Requirements
+Tested on: 
+`Python 3.10`
+`Python 3.9.6`
+`tensorflow==2.13.0` 
+`numpy==1.24.2`
+`keras==2.13.1` 
 
 ##
 Steps:
