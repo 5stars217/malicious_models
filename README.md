@@ -6,8 +6,10 @@ This code and repo has an accompanying blog post and talk:
 https://5stars217.github.io/2023-08-08-red-teaming-with-ml-models/ 
 
 
-Here it is in action:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ghG5BFNC6w0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+**Here it is in action:** 
+
+[![YouTube Video Thumbnail](https://img.youtube.com/vi/ghG5BFNC6w0/0.jpg)](https://www.youtube.com/watch?v=ghG5BFNC6w0)
+
 
 ##
 Steps:
